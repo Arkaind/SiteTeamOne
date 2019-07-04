@@ -1,0 +1,167 @@
+
+/*---------------Accueil--------------------*/
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*-------gestion flex-box----*/
+/*---ordinateur----*/
+.flex-row > div {
+  width: 44%;
+}
+
+/*-----tablette-----*/
+@media(max-width: 1130px) and (min-width: 699px){
+
+  .flex-row > .Cadre1_g
+  {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .flex-row > .Cadre1_d
+  {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/*----portable-----*/
+@media(max-width:699px) {
+  .flex-row > div {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/*------Gestion des cadres-----*/
+.cadre1
+{
+display: inline-block;
+float:left;
+width: 42%;
+margin-left:2%;
+margin-right:1%;
+margin-top: 2%;
+margin-bottom: 2%;
+
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 2%;
+padding-right: 2%;
+
+background-color: rgb(250,250,250); 
+}
+
+.cadre1 h1
+{
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.cadre1 p
+{
+  text-indent: 2em
+}
+
+.Cadre_d
+{
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+  width: 40%;
+  margin-bottom: 2%;
+}
+
+.Cadre_d p{
+  font-size: 10px;
+}
+
+.Cadre1_g
+{
+  display: inline-block;
+  float:left;
+  width: 49%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.Cadre1_d
+{
+  display: inline-block;
+  float: right;
+  width: 49%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
+
+/*-----Gestion polaroid-----*/
+div.polaroid{
+  padding: 2% 2% 4% 2%;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.polaroid_1 {
+  width: 90%;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.flex-row a{
+    color: black;
+}
+
+.caption {
+  text-align: center;
+  text-decoration: underline white;
+}
+
+.cadre1 p{
+  text-align: left;
+}
+
+.Cadre_d h1
+{
+  text-decoration: none;
+}
+
+/*-------portable-----*/
+@media(max-width: 380px)
+{
+  div.polaroid{
+    width: 90%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+  }
+}
+
+/*-------tablette et ordinateur-----*/
+@media(min-width: 380px){
+
+  div.polaroid{
+    width: 45%;
+  }
+  div.rotate_right {
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+  }
+
+  div.rotate_left {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+  }
+  .center
+  {
+    padding: 2em;
+  }
+  }
+  

@@ -1,0 +1,22 @@
+.pdp
+{
+  border-radius: 50%;
+  width: 50%;
+}
+
+.pdp_last
+{
+  border-radius: 50%;
+  width: 50%;
+  margin-left: auto;
+}
+
+figure
+{
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 1%;
+  padding: 1%;
+}

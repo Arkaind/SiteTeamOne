@@ -39,9 +39,7 @@ footer{
 
 .copy
 {
-	display: inline-block;
-	width: 47%;
-	float: left;
+	width: 100%;
 	color: white;
 	max-height: 100%;
 	margin-left: 3%;
@@ -96,5 +94,12 @@ footer{
 
 	.foot_to img{
 		width: 35px;
+	}
+}
+
+@media(max-width: 280px)
+{
+	.foot_to img{
+		width: 20px;
 	}
 }

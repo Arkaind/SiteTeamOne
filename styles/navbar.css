@@ -1,0 +1,149 @@
+
+/*-----------Ordinateur----------*/
+@media only screen and (min-width: 699px) {
+
+    .logo
+    {
+      height: 80px;
+      float: left;
+    }
+    .logo img
+    {
+      margin: 0.6em 2em 1em 1em;
+      max-width: 50px;
+    }
+
+    nav ul
+    {
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+    }
+
+    nav li
+    {
+      list-style-type: none;
+      float: left;
+      font-size: 14px;
+    }
+
+    nav
+    {
+      width: 100%;
+      background-color: #292c2f;
+    }
+
+    nav a
+    {
+      display: inline-block;
+      text-decoration: none;
+      padding: 30px 30px;
+      color : #ffffff;
+    }
+
+    .actif a
+    {
+      color: rgb(251,126,54);
+    }
+    
+    nav li:hover a 
+    {
+      /*padding: 25px 30px 20px 30px;*/
+      color: rgb(251,126,54);
+    }
+
+    #menu
+    {
+      display: none;
+    }
+
+    #titre
+    {
+      display: none;
+    }
+}
+@media only screen and (max-width: 910px) {
+  nav a
+      {
+        display: inline-block;
+        text-decoration: none;
+        padding: 30px 15px;
+        color : #ffffff;
+      }
+}
+/*-----------Portable---------------*/
+@media only screen and (max-width: 699px) {
+    .logo
+    {
+      float: left;
+      
+    }
+    .logo img
+    {
+      margin: 0.6em 2em 1em 1em;
+      width: 10%;
+    }
+
+    #menu{
+      float: right;
+      margin-right: 5%;
+      width: 20%;
+      border-radius: 5%;
+    }
+
+    #titre
+    {
+      display: inline-block;
+      text-align: center;
+      margin-top: 0;
+      color:white;
+    }
+
+    nav
+    {
+      display: inline-block;
+      margin-top: 0;
+      float: left;
+      width: 100%;
+      background-color: #292c2f;
+    }
+
+    nav li
+    {
+     max-height:0;
+     /*overflow: hidden;*/
+    }
+
+    nav a
+    {
+      padding: 0 0 ;
+    }
+
+    nav li a {
+      display:block;
+      padding-bottom: 0;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size:0.8em;
+    }
+
+    nav li:hover a 
+    {
+      color: rgb(251,126,54);
+    }
+    nav:hover .actif a 
+    {
+      color: rgb(251,126,54);
+    }
+
+    nav:hover{
+      transition: all .5s;
+    }
+    nav:hover li{
+      max-height: 300%;
+    }
+
+}
+
+
