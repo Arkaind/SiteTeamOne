@@ -1,0 +1,100 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+
+footer{
+	background-color: #292c2f;
+	width: 100%;
+}
+
+.LogoInsa
+{
+	display: inline-block;
+	float:left;
+	width: 50%;
+	max-height: 100%;
+}
+
+.LogoInsa img{
+	margin-left: 5%;
+	margin-top: 5%;
+	max-height: 100%;
+}
+
+.foot_to{
+	display: inline-block;
+	width: 50%;
+	max-height: 100%;
+}
+
+
+.foot_to img{
+	float: right;
+	margin-right: 8%;
+	margin-top: 2%;
+	max-height: 100%;
+}
+
+.copy
+{
+	display: inline-block;
+	width: 47%;
+	float: left;
+	color: white;
+	max-height: 100%;
+	margin-left: 3%;
+}
+
+.copy p
+{
+	margin-bottom: 0;
+}
+.fb
+{
+	display: inline-block;
+	width: 47%;
+	color: white;
+	max-height: 100%;
+	margin-right: 3%;
+}
+.fb img
+{
+	float: right;
+	margin-right: 4%;
+}
+
+@media(min-width: 699px){
+	.fb img
+	{
+		width: 50px;
+	}
+
+	.LogoInsa img{
+		width: 200px;
+	}
+
+	.foot_to img{
+		width: 70px;
+	}
+}
+
+@media(max-width: 699px){
+	footer p{
+		font-size: 10px;
+	}
+
+	.fb img
+	{
+		width: 25px;
+	}
+
+	.LogoInsa img{
+		width: 100px;
+	}
+
+	.foot_to img{
+		width: 35px;
+	}
+}
