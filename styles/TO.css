@@ -140,6 +140,11 @@ p a
   #texte p{
     text-indent: 2em;
   }
+
+  #contenu{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 /*-----------Portable---------------*/

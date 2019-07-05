@@ -1,0 +1,22 @@
+@media(min-width: 699px){
+	.point p{
+	background-image: url(../images/point.jpg);
+	}
+
+	p
+	{
+		margin-bottom: 0;
+	}
+
+	.point > p > img{
+		display: none;
+	}
+}
+
+@media(max-width: 699px){
+	.point > p > img{
+		width: 50%;
+		margin-left: 25%;
+	}
+
+}

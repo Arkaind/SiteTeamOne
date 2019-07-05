@@ -1,0 +1,55 @@
+
+
+@media(min-width: 699px)
+{
+	.prog img{
+		width:100%;	}
+}
+
+@media(max-width: 699px)
+{
+	.prog img{
+		width:80%;
+		margin-left: 10%;
+	}
+}
+
+.jour{
+	margin-left: 4%;
+}
+
+.p_g{
+	width: 48%;
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 3%;
+	display: inline-block;
+}
+
+.k_d{
+	width: 48%;
+	float: right;
+	margin-bottom: 3%;
+	display: inline-block;
+}
+
+
+
+.half_g {
+	width: 48%;
+	float: left;
+	margin-bottom: 3%;
+	display: inline-block;
+}
+
+.half_d {
+	width: 48%;
+	float: right;
+	margin-bottom: 3%;
+	display: inline-block;
+}
+
+.centwidth{
+	width: 100%;
+	margin-bottom: 3%;
+}
