@@ -11,8 +11,8 @@
   width: 44%;
 }
 
-/*-----tablette et portable-----*/
-@media(max-width: 1130px){
+/*-----tablette-----*/
+@media(max-width: 1130px) and (min-width: 699px){
 
   .flex-row > .Cadre1_g
   {
@@ -24,6 +24,14 @@
   {
     width: 100%;
     margin-right: 0;
+  }
+}
+/*----portable-----*/
+@media(max-width:699px) {
+  .flex-row > div {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -129,6 +137,10 @@ div.polaroid_1 {
     width: 90%;
     margin-left: 1%;
     margin-bottom: 1%;
+  }
+
+  .center p{
+    font-size: 15px;
   }
 }
 
