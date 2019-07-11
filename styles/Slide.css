@@ -1,5 +1,4 @@
 html, body {
-  background: #F7F5E6;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -120,4 +119,40 @@ a.slide_btn {
   .next_btn {
     right: 50px;
   }
+
+  .text-left
+  {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: none;
+  }
+  .text-centre
+{
+  margin-top: -250px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  text-align: center;
+  font-size: 18px;
+
+  
+}
+  .text-right
+  {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+   display: none;
+  }
+.slide_buttons {
+  display: none;
+}
+
+.directional_nav {
+  display: none;
+}
 }
